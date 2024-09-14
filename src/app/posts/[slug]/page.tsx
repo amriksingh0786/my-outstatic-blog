@@ -1,4 +1,4 @@
-import { getDocumentPaths, getDocumentBySlug } from '../../../lib/outstatic'
+import { getDocumentPaths, getDocumentBySlug } from 'outstatic/server'
 //import { Post } from '../../../types'
 
 export async function generateStaticParams() {
@@ -13,8 +13,8 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
   return (
     <article className="prose lg:prose-xl mx-auto">
-      <h1>{post.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.content }} />
+      <h1>{post?.title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: post?.content || '' }} />
     </article>
   )
 }
