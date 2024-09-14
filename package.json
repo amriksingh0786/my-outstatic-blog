@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "outstatic:init": "node src/scripts/outstatic-init.js"
+    "outstatic:init": "ts-node src/scripts/outstatic-init.ts"
   },
   "dependencies": {
     "next": "14.2.11",

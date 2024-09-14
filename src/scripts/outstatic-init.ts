@@ -1,6 +1,6 @@
-const { randomUUID } = require('crypto');
-const fs = require('fs');
-const path = require('path');
+import { randomUUID } from 'crypto';
+import fs from 'fs';
+import path from 'path';
 
 const contentDir = path.join(process.cwd(), 'outstatic', 'content');
 const metadataFile = path.join(contentDir, 'metadata.json');
