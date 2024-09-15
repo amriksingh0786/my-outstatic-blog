@@ -1,6 +1,6 @@
 ---
 title: 'Hi this is first blog'
-status: 'draft'
+status: 'published'
 author:
   name: 'Amrik Singh Khalsa'
   picture: 'https://avatars.githubusercontent.com/u/45719782?v=4'
