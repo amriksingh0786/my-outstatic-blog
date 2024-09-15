@@ -1,4 +1,25 @@
 {
-  "generated": "2024-09-14T09:54:23.516Z",
+  "commit": "c335928bd22165f2d3ccc49344d6916cf2761172",
+  "generated": "2024-09-15T21:06:42.980Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "c335928bd22165f2d3ccc49344d6916cf2761172",
+        "hash": "3337799237",
+        "path": "outstatic/content/post-check/hi-this-is-first-blog.md"
+      },
+      "author": {
+        "name": "Amrik Singh Khalsa",
+        "picture": "https://avatars.githubusercontent.com/u/45719782?v=4"
+      },
+      "collection": "post-check",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-15T21:38:50.433Z",
+      "slug": "hi-this-is-first-blog",
+      "status": "draft",
+      "title": "Hi this is first blog"
+    }
+  ],
   "siteId": "cc12aca9-b916-4fbc-9a6a-36e51c9d1785"
 }
